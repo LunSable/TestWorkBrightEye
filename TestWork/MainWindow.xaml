@@ -1,0 +1,16 @@
+﻿<Window x:Class="TestWork.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TestWork"
+        mc:Ignorable="d"
+        Title="TestNumber" Height="340" Width="536" ResizeMode="NoResize" WindowStyle="ThreeDBorderWindow">
+    <Grid>
+        <Button x:Name="RandomOneTable" Content="RandomOneTable" Margin="10,10,0,0" VerticalAlignment="Top" Height="38" Click="RandomOneTable_Click" HorizontalAlignment="Left" Width="101"/>
+        <Button x:Name="SortTwoTable" Content="SortTwoTable" Margin="275,10,0,0" VerticalAlignment="Top" Height="38" HorizontalAlignment="Left" Width="101" Click="SortTwoTable_Click"/>
+        <DataGrid x:Name="DataGridOne" Height="311" VerticalAlignment="Top" HorizontalAlignment="Left" Width="147" Margin="116,0,0,0"/>
+        <DataGrid x:Name="DataGridTwo" Height="311" Margin="381,0,-1,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="150"/>
+
+    </Grid>
+</Window>
